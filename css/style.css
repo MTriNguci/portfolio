@@ -90,7 +90,7 @@ a:hover {
 }
 
 .overlay-mf {
-  background-color: #0078ff;
+  background-color: #7f8b99;
 }
 
 .overlay-mf {
@@ -629,10 +629,15 @@ a:hover {
 }
 
 .intro .intro-subtitle {
+  color: lime;
   font-size: 1.5rem;
   font-weight: 300;
 }
-
+.intro .intro-subtitle2 {
+  color: yellow;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
 .intro .text-slider-items {
   display: none;
 }
@@ -694,10 +699,36 @@ a:hover {
   border-radius: 0;
   height: .7rem;
 }
-
 .skill-mf .progress .progress-bar {
   height: .7rem;
   background-color: #0078ff;
+}
+/* .title-s {
+  font-weight: bold;
+  font-size: 1.5em; /* Kích thước chữ */
+
+
+.Interest {
+  padding: 10px; /* Khoảng cách từ chữ đến biên của khối */
+  margin-right: 10px; /* Khoảng cách giữa các khối */
+  margin: .5rem 0 1.2rem 0;
+  display: inline-block; /* Đặt các khối cùng một dòng */
+  font-size: 1.2em; /* Kích thước chữ */
+  color: white; /* Màu chữ */
+}
+.Interest.machine-learning {
+  background-color: green; /* Màu nền của khối Machine Learning */
+}
+.Interest.deep-learning {
+  background-color: orange; /* Màu nền của khối Deep Learning */
+}
+.Interest.visualize
+{
+  background-color: rgb(51, 4, 112); 
+}
+.Interest.chat-gpt
+{
+  background-color: red /* Màu nền của khối Deep Learning */
 }
 
 /*======================================
